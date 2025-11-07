@@ -1,3 +1,14 @@
+/*
+Algorithm: Max Alternating Sum
+--------------------------------
+Description:
+Calculates the maximum alternating sum of elements in an array.
+The algorithm uses dynamic programming to decide whether to add or subtract
+each number to maximize the total sum.
+
+Time Complexity: O(n)
+Space Complexity: O(1)
+*/
 import java.util.*;
 class Solution {
     public long maxAlternatingSum(int[] nums) {
